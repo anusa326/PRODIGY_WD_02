@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stopwatch">
+
+    <div class="header">
+      <img src="https://cdn-icons-png.flaticon.com/512/992/992700.png" 
+           alt="Stopwatch Icon" 
+           class="icon">
+      <h1>My Stopwatch</h1>
+    </div>
+
+    <div class="time" id="display">00:00:00</div>
+
+    <div class="buttons">
+      <button id="toggleBtn">▶️ Start</button>
+      <button id="reset">🔄 Reset</button>
+      <button id="lap">⏱️ Lap</button>
+      <button id="export">📤 Export</button>
+    </div>
+
+    <ul class="laps" id="laps"></ul>
+
+    <div class="footer">
+      <button id="themeToggle" class="theme-btn">🌙</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
